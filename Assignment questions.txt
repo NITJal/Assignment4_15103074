@@ -1,0 +1,41 @@
+Question 1: Alice wants to make a social networking site, where she can upload photographs and then he can tag them with people and titles.
+            Help her in this task where she is able to erform these operations 
+            1. Watch profile of the person where she can watch photos uploaded by that person.
+            2. With the help of tags she should be able to find out the photos tagged by that title.
+
+            Example: It is a menu driven program which askes you to enter persons name and the tag
+            1st case: here list of all people comes and when you enter the name of the person you can see photos uploaded by him.
+                      now opening the profile gives you list of uploaded photos and askss you to enter the name of photograph, 
+                      when you enter the photograph name of photograph it shows list of tags associated.
+            2nd case: you enter the tag to which you want to find photos associated with, on entering the tag you can find all photos related to 
+                      that tag.
+            *Use collections framework to use to store the necessary data.
+            
+Question 2: Bob is currently working on programming a text editor. In this Text Editor he is stuck on one problem. He wants to 
+            introduce functionaliy of auto completion of sentences. Whenever a word matches equals to or more than 50% then word should
+            automatically get corrected and if the word is matches less than 50% then it should be added to your dictionary so that on further
+            entering of word it should get corrected according to the new dictionary.
+            
+            Example: Let you have predefind dictionary of these word {this, is, the, Program}
+            Input: This as the Prggram of Lab.
+            Output: This is the Program.
+            
+            Now the updated dictionary is {this, is, the, Program, of, lab}
+            
+Question 3: Mr. GitHub has recently facing some problem in programming. He wants to make a text editor so that if keys like
+            enter and backspace are broken then also a person can type the text. Hhere the operations applied in 
+            the editor will not be trditional enter, backspace but will be as follows:
+            ^ for for shifting cursor up
+            < for shifting cursor left
+            > for shifting cursor right
+            ? for shifting cursor down
+            @ for turning capslock on and off
+            $ for entering to new line
+            # for backspace
+            
+            write a program that can implement these things.
+            
+            Example:
+              Input: this@is$the#best@i can^do
+              output: thisISdo
+                      THBESTi can
